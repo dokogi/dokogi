@@ -1,0 +1,395 @@
+@font-face {
+  font-family: 'uthmanic_shuba_v20';
+  src: url('../fonts/uthmanic_shuba_v20.woff') format('woff');
+}
+
+  @font-face {
+    font-family: "QCF_BSML"; src: url( '../fonts/mushaf-woff/QCF_BSML.woff' );
+}
+@font-face {
+  font-family: 'QCF_P001'; src: url( '../fonts/mushaf-woff/QCF_P001.woff' );
+}
+  @font-face {
+    font-family: 'QCF_P002'; src: url( '../fonts/mushaf-woff/QCF_P002.woff' );
+  }
+  
+  @font-face {
+    font-family: 'QCF_P003'; src: url( '../fonts/mushaf-woff/QCF_P003.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P004'; src: url( '../fonts/mushaf-woff/QCF_P004.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P005'; src: url( '../fonts/mushaf-woff/QCF_P005.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P006'; src: url( '../fonts/mushaf-woff/QCF_P006.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P'; src: url( '../fonts/mushaf-woff/QCF_P.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P'; src: url( '../fonts/mushaf-woff/QCF_P.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P'; src: url( '../fonts/mushaf-woff/QCF_P.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P'; src: url( '../fonts/mushaf-woff/QCF_P.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P'; src: url( '../fonts/mushaf-woff/QCF_P.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P'; src: url( '../fonts/mushaf-woff/QCF_P.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P'; src: url( '../fonts/mushaf-woff/QCF_P.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P'; src: url( '../fonts/mushaf-woff/QCF_P.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P'; src: url( '../fonts/mushaf-woff/QCF_P.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P'; src: url( '../fonts/mushaf-woff/QCF_P.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P'; src: url( '../fonts/mushaf-woff/QCF_P.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P'; src: url( '../fonts/mushaf-woff/QCF_P.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P'; src: url( '../fonts/mushaf-woff/QCF_P.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P'; src: url( '../fonts/mushaf-woff/QCF_P.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P'; src: url( '../fonts/mushaf-woff/QCF_P.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P'; src: url( '../fonts/mushaf-woff/QCF_P.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P'; src: url( '../fonts/mushaf-woff/QCF_P.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P'; src: url( '../fonts/mushaf-woff/QCF_P.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P'; src: url( '../fonts/mushaf-woff/QCF_P.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P'; src: url( '../fonts/mushaf-woff/QCF_P.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P'; src: url( '../fonts/mushaf-woff/QCF_P.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P'; src: url( '../fonts/mushaf-woff/QCF_P.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P'; src: url( '../fonts/mushaf-woff/QCF_P.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P'; src: url( '../fonts/mushaf-woff/QCF_P.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P'; src: url( '../fonts/mushaf-woff/QCF_P.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P'; src: url( '../fonts/mushaf-woff/QCF_P.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P'; src: url( '../fonts/mushaf-woff/QCF_P.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P'; src: url( '../fonts/mushaf-woff/QCF_P.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P'; src: url( '../fonts/mushaf-woff/QCF_P.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P'; src: url( '../fonts/mushaf-woff/QCF_P.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P'; src: url( '../fonts/mushaf-woff/QCF_P.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P'; src: url( '../fonts/mushaf-woff/QCF_P.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P'; src: url( '../fonts/mushaf-woff/QCF_P.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P'; src: url( '../fonts/mushaf-woff/QCF_P.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P'; src: url( '../fonts/mushaf-woff/QCF_P.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P'; src: url( '../fonts/mushaf-woff/QCF_P.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P'; src: url( '../fonts/mushaf-woff/QCF_P.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P564'; src: url( '../fonts/mushaf-woff/QCF_P564.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P565'; src: url( '../fonts/mushaf-woff/QCF_P565.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P566'; src: url( '../fonts/mushaf-woff/QCF_P566.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P567'; src: url( '../fonts/mushaf-woff/QCF_P567.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P568'; src: url( '../fonts/mushaf-woff/QCF_P568.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P569'; src: url( '../fonts/mushaf-woff/QCF_P569.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P570'; src: url( '../fonts/mushaf-woff/QCF_P570.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P571'; src: url( '../fonts/mushaf-woff/QCF_P571.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P572'; src: url( '../fonts/mushaf-woff/QCF_P572.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P573'; src: url( '../fonts/mushaf-woff/QCF_P573.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P574'; src: url( '../fonts/mushaf-woff/QCF_P574.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P575'; src: url( '../fonts/mushaf-woff/QCF_P575.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P576'; src: url( '../fonts/mushaf-woff/QCF_P576.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P577'; src: url( '../fonts/mushaf-woff/QCF_P577.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P578'; src: url( '../fonts/mushaf-woff/QCF_P578.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P579'; src: url( '../fonts/mushaf-woff/QCF_P579.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P580'; src: url( '../fonts/mushaf-woff/QCF_P80.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P580'; src: url( '../fonts/mushaf-woff/QCF_P580.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P581'; src: url( '../fonts/mushaf-woff/QCF_P581.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P582'; src: url( '../fonts/mushaf-woff/QCF_P582.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P583'; src: url( '../fonts/mushaf-woff/QCF_P583.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P584'; src: url( '../fonts/mushaf-woff/QCF_P584.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P585'; src: url( '../fonts/mushaf-woff/QCF_P585.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P586'; src: url( '../fonts/mushaf-woff/QCF_P586.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P587'; src: url( '../fonts/mushaf-woff/QCF_P587.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P588'; src: url( '../fonts/mushaf-woff/QCF_P588.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P589'; src: url( '../fonts/mushaf-woff/QCF_P589.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P590'; src: url( '../fonts/mushaf-woff/QCF_P590.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P591'; src: url( '../fonts/mushaf-woff/QCF_P561.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P592'; src: url( '../fonts/mushaf-woff/QCF_P592.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P593'; src: url( '../fonts/mushaf-woff/QCF_P593.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P594'; src: url( '../fonts/mushaf-woff/QCF_P594.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P595'; src: url( '../fonts/mushaf-woff/QCF_P595.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P596'; src: url( '../fonts/mushaf-woff/QCF_P596.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P597'; src: url( '../fonts/mushaf-woff/QCF_P597.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P598'; src: url( '../fonts/mushaf-woff/QCF_P598.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P599'; src: url( '../fonts/mushaf-woff/QCF_P599.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P600'; src: url( '../fonts/mushaf-woff/QCF_P600.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P601'; src: url( '../fonts/mushaf-woff/QCF_P601.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P602'; src: url( '../fonts/mushaf-woff/QCF_P602.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P603'; src: url( '../fonts/mushaf-woff/QCF_P603.woff' );
+  }
+  @font-face {
+    font-family: 'QCF_P604'; src: url( '../fonts/mushaf-woff/QCF_P604.woff' );
+  }
+.bsml{
+    text-align: center;
+    direction: rtl;
+    margin-bottom: 10px; 
+    color: black;
+    font-family: 'QCF_BSML', serif;
+    font-size: 30px;
+    margin: 5px;
+}  
+.seven-verse{
+  font-size: 30px; /* Adjust the Arabic font size as needed */
+    font-family: 'uthmanic_shuba_v20', sans-serif;
+    color: #0a0202;
+    line-height: 2.0;
+    text-align: center;
+    direction: rtl;   
+    overflow: hidden;
+    overflow-anchor: none;
+    margin: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+  .arabic-verse-1-7-p001{
+    font-size: 30px; /* Adjust the Arabic font size as needed */
+    font-family: 'QCF_P001', sans-serif;
+    color: #0a0202;
+    line-height: 2.0;
+    text-align: center;
+    direction: rtl;   
+    overflow: hidden;
+    overflow-anchor: none;
+    margin: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .arabic-verse-1-12-p564 {
+    font-size: 30px; /* Adjust the Arabic font size as needed */
+    font-family: 'QCF_P564', serif;
+    color: #0a0202;
+    line-height: 2.0;
+    text-align: justify;
+    direction: rtl;   
+    overflow: hidden;
+    overflow-anchor: none;
+}
+.arabic-verse-16-42-p565 {
+    font-size: 30px; /* Adjust the Arabic font size as needed */
+    font-family: 'QCF_P565', serif;
+    color: #0a0202;
+    line-height: 2.0;
+    text-align: justify;
+    direction: rtl;   
+    overflow: hidden;
+    overflow-anchor: none;
+}
+.arabic-verse-16-42-p566{
+    font-size: 30px; /* Adjust the Arabic font size as needed */
+    font-family: 'QCF_P566', serif;
+    color: #0a0202;
+    line-height: 2.0;
+    text-align: justify;
+    direction: rtl;   
+    overflow: hidden;
+    overflow-anchor: none;
+}
+.arabic-verse-9-34-p567{
+    font-size: 30px; /* Adjust the Arabic font size as needed */
+    font-family: 'QCF_P567', serif;
+    color: #0a0202;
+    line-height: 2.0;
+    text-align: justify;
+    direction: rtl;   
+    overflow: hidden;
+    overflow-anchor: none;
+}
+.arabic-verse-35-52-p568{
+    font-size: 30px; /* Adjust the Arabic font size as needed */
+    font-family: 'QCF_P568', serif;
+    color: #0a0202;
+    line-height: 2.0;
+    text-align: justify;
+    direction: rtl;   
+    overflow-anchor: none;
+}
+.arabic-verse-11-39-p569{
+    font-size: 30px; /* Adjust the Arabic font size as needed */
+    font-family: 'QCF_P569', serif;
+    color: #0a0202;
+    line-height: 2.0;
+    text-align: justify;
+    direction: rtl;   
+    overflow: hidden;
+    overflow-anchor: none;
+}
+.arabic-verse-40-44-p570
+{
+    font-size: 30px; /* Adjust the Arabic font size as needed */
+    font-family: 'QCF_P570', serif;
+    color: #0a0202;
+    line-height: 2.0;
+    text-align: justify;
+    direction: rtl;   
+    overflow: hidden;
+    overflow-anchor: none;
+}
+.arabic-verse-11-28-p571{
+    font-size: 30px; /* Adjust the Arabic font size as needed */
+    font-family: 'QCF_P571', serif;
+    color: #0a0202;
+    line-height: 2.0;
+    text-align: justify;
+    direction: rtl;   
+    overflow: hidden;
+    overflow-anchor: none;
+}
+.nupe-language{
+    color: #0a0202;
+    font-size: 16;
+}
+.english {
+    color: #0a0202;
+    font-size: 16;
+}
+  .verse2 {
+    font-family: 'QCF_P002', sans-serif;
+  }
+  
+  .verse3 {
+    font-family: 'QCF_P003', sans-serif;
+  }
+  

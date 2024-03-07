@@ -1,0 +1,95 @@
+/* General styles applicable to both mobile and desktop */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    width: 20%;
+    background-color: #444;
+    padding: 15px;
+    height: 100vh;
+    position: fixed;
+}
+
+nav a {
+    display: block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #555;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #777;
+}
+
+main {
+    margin-left: 22%;
+    padding: 20px;
+}
+
+.section1,
+.section2 {
+    margin-bottom: 20px;
+    text-align: justify;
+    margin: 20px;
+    margin-left: 80px;
+    margin-right: 30px;
+    padding: 10px;
+
+}
+
+h2 {
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Mobile view */
+@media only screen and (max-width: 600px) {
+    nav {
+        width: 100%;
+        float: none;
+        position: relative;
+    }
+
+    main {
+        margin-left: 0;
+    }
+}
+
+/* Desktop view */
+@media only screen and (min-width: 601px) {
+    nav {
+        width: 20%;
+        float: left;
+        position: fixed;
+    }
+
+    main {
+        margin-left: 22%;
+    }
+}

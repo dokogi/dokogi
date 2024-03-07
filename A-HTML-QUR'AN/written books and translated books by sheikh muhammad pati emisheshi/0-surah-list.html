@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>written and translated books by sheikh muhammad pati emisheshi r.t.a</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  .sidebar {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+
+  .content {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    position: relative; /* Enable relative positioning */
+  }
+
+  .quran-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+
+  .quran-list li {
+    margin-bottom: 10px;
+  }
+
+  .chapter-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .chapter-button:hover {
+    background-color: #45a049;
+  }
+
+  .chapter-content {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 20px;
+    position: relative; /* Enable relative positioning */
+    height: 6200px;
+  }
+
+  iframe {
+    width: 100%;
+    border: none;
+  }
+
+  .back-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+
+<div class="sidebar">
+  <ul class="quran-list">
+    <li><button class="chapter-button" onclick="loadChapter('01 SURATUL FATIHA.HTML')">Chapter 1</button></li>
+    <li><button class="chapter-button" onclick="loadChapter('#')">Chapter 2</button></li>
+    <!-- Add more chapters -->
+    <!-- Repeat the above line for each chapter -->
+    <li><button class="chapter-button" onclick="loadChapter('chapter144.html')">TRANSLATION OF KITABU ASHMAWIYYU TO NUPE LANGUAGE BY SHEIKH MUHAMMAD PATI EMISHESHI</button></li>
+    <li><button class="chapter-button" onclick="loadChapter('chapter144.html')">Chapter 144</button></li>
+    <li><button class="chapter-button" onclick="loadChapter('chapter144.html')">Chapter 144</button></li>
+  </ul>
+</div>
+
+<div class="content">
+  <div class="chapter-content" id="chapterContent">
+    <!-- The content of the selected chapter will be loaded here -->
+  </div>
+  <button class="back-button" onclick="goBack()">Back</button>
+</div>
+
+<script>
+  function loadChapter(chapterUrl) {
+    var iframe = document.createElement('iframe');
+    iframe.src = chapterUrl;
+    iframe.style.width = '100%';
+    iframe.style.height = '100%';
+    iframe.style.border = 'none';
+    document.getElementById('chapterContent').innerHTML = '';
+    document.getElementById('chapterContent').appendChild(iframe);
+
+    // Set the height of the container dynamically based on the content
+    iframe.onload = function() {
+      var contentHeight = iframe.contentWindow.document.body.scrollHeight;
+      document.getElementById('chapterContent').style.height = contentHeight + 'px';
+    };
+  }
+
+  function goBack() {
+    window.history.back();
+  }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,116 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f3f1;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f7f7f771;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #007BFF;
+}
+.header {
+    text-align: center;
+    color: #fcfbfb;
+    background: #2b036d;
+}
+.h {
+    text-align: center;
+    color: #faf60a;
+    background-color: rgb(11, 11, 19);
+}
+.head{
+    text-align: center;
+    color: #faf60a;
+    background-color: #333;
+    font-family: 'QCF_BSML', serif;
+    font-size: 40px;
+    font-display: calc(2);
+}
+.arabic-text {
+    text-align: justify;
+    direction: rtl;
+    margin-bottom: 10px; 
+    color: black;
+    font-family: 'uthmanic_shuba_v20', serif;
+}
+.translation {
+    text-align: justify;
+    direction: ltr;
+    margin-top: 5px;
+    text-decoration: black;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.arabic,
+.nupe-language {
+    font-size: 20px;
+    line-height: 1.4;
+    color: black;
+}
+
+.arabic,
+.english {
+    font-size: 20px;
+    line-height: 1.4;
+    color: black;
+}
+.arabic {
+    font-size: 30px; /* Adjust the Arabic font size as needed */
+    font-family: 'uthmanic_shuba_v20', serif;
+    color: #0a0202;
+    line-height: 2.0;
+    text-align: justify;
+    direction: rtl;
+}
+.HITIFALU {
+    Text-align: center;
+    color: #faf60a;
+    background-color: #333;
+    font-family: 'uthmanic_shuba_v20', serif;
+    font-size: 40px;
+    font-display: calc(2);
+}
+
+.nupe-language{
+    color: #0a0202;
+    font-size: 16;
+}
+.english {
+    color: #0a0202;
+    font-size: 16;
+}
+
+/* Media Query for Desktop View */
+@media only screen and (min-width: 768px) {
+    .container {
+        max-width: 800px;
+        margin: 50px auto;
+    }
+
+    .arabic-text {
+        margin-bottom: 15px;
+    }
+
+    .translation {
+        margin-top: 10px; 
+    }
+}
+
+/* Media Query for Mobile View */
+@media only screen and (max-width: 767px) {
+    .container {
+        max-width: 100%;
+        margin: 20px;
+    }
+
+    .arabic-text,
+    .translation {
+        margin-bottom: 5px;
+    }
+}

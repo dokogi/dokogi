@@ -1,0 +1,23 @@
+.moving-text-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.moving-text {
+    margin: 0;
+    font-size: 18px;
+    animation: moveText 10s linear infinite;
+    direction: ltr;
+}
+
+@keyframes moveText {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
